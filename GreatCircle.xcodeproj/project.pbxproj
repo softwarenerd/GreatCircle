@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C707FE1D04756300429359 /* GreatCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C707FD1D04756300429359 /* GreatCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C708051D04756300429359 /* GreatCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C707FA1D04756300429359 /* GreatCircle.framework */; };
+		D3C7080A1D04756300429359 /* GreatCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C708091D04756300429359 /* GreatCircleTests.m */; };
+		D3C708161D04759C00429359 /* CLLocation+GreatCircleExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C708141D04759C00429359 /* CLLocation+GreatCircleExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C708171D04759C00429359 /* CLLocation+GreatCircleExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C708151D04759C00429359 /* CLLocation+GreatCircleExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C708061D04756300429359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C707F11D04756300429359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C707F91D04756300429359;
+			remoteInfo = GreatCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C707FA1D04756300429359 /* GreatCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GreatCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C707FD1D04756300429359 /* GreatCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreatCircle.h; sourceTree = "<group>"; };
+		D3C707FF1D04756300429359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C708041D04756300429359 /* GreatCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C708091D04756300429359 /* GreatCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatCircleTests.m; sourceTree = "<group>"; };
+		D3C7080B1D04756300429359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C708141D04759C00429359 /* CLLocation+GreatCircleExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+GreatCircleExtensions.h"; sourceTree = "<group>"; };
+		D3C708151D04759C00429359 /* CLLocation+GreatCircleExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+GreatCircleExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C707F61D04756300429359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C708011D04756300429359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C708051D04756300429359 /* GreatCircle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C707F01D04756300429359 = {
+			isa = PBXGroup;
+			children = (
+				D3C707FC1D04756300429359 /* GreatCircle */,
+				D3C708081D04756300429359 /* GreatCircleTests */,
+				D3C707FB1D04756300429359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C707FB1D04756300429359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C707FA1D04756300429359 /* GreatCircle.framework */,
+				D3C708041D04756300429359 /* GreatCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C707FC1D04756300429359 /* GreatCircle */ = {
+			isa = PBXGroup;
+			children = (
+				D3C707FD1D04756300429359 /* GreatCircle.h */,
+				D3C707FF1D04756300429359 /* Info.plist */,
+				D3C708141D04759C00429359 /* CLLocation+GreatCircleExtensions.h */,
+				D3C708151D04759C00429359 /* CLLocation+GreatCircleExtensions.m */,
+			);
+			path = GreatCircle;
+			sourceTree = "<group>";
+		};
+		D3C708081D04756300429359 /* GreatCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C708091D04756300429359 /* GreatCircleTests.m */,
+				D3C7080B1D04756300429359 /* Info.plist */,
+			);
+			path = GreatCircleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3C707F71D04756300429359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C708161D04759C00429359 /* CLLocation+GreatCircleExtensions.h in Headers */,
+				D3C707FE1D04756300429359 /* GreatCircle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D3C707F91D04756300429359 /* GreatCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C7080E1D04756300429359 /* Build configuration list for PBXNativeTarget "GreatCircle" */;
+			buildPhases = (
+				D3C707F51D04756300429359 /* Sources */,
+				D3C707F61D04756300429359 /* Frameworks */,
+				D3C707F71D04756300429359 /* Headers */,
+				D3C707F81D04756300429359 /* Resources */,
+				A2099C8F1D4118C400237960 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatCircle;
+			productName = GreatCircle;
+			productReference = D3C707FA1D04756300429359 /* GreatCircle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3C708031D04756300429359 /* GreatCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C708111D04756300429359 /* Build configuration list for PBXNativeTarget "GreatCircleTests" */;
+			buildPhases = (
+				D3C708001D04756300429359 /* Sources */,
+				D3C708011D04756300429359 /* Frameworks */,
+				D3C708021D04756300429359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C708071D04756300429359 /* PBXTargetDependency */,
+			);
+			name = GreatCircleTests;
+			productName = GreatCircleTests;
+			productReference = D3C708041D04756300429359 /* GreatCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C707F11D04756300429359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Softwarenerd;
+				TargetAttributes = {
+					D3C707F91D04756300429359 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6B5V5J8CTY;
+					};
+					D3C708031D04756300429359 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D3C707F41D04756300429359 /* Build configuration list for PBXProject "GreatCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3C707F01D04756300429359;
+			productRefGroup = D3C707FB1D04756300429359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C707F91D04756300429359 /* GreatCircle */,
+				D3C708031D04756300429359 /* GreatCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C707F81D04756300429359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C708021D04756300429359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2099C8F1D4118C400237960 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "headerdoc2html -e HeaderDocExclude -o ./ApiDoc GreatCircle";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C707F51D04756300429359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C708171D04759C00429359 /* CLLocation+GreatCircleExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C708001D04756300429359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7080A1D04756300429359 /* GreatCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C708071D04756300429359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C707F91D04756300429359 /* GreatCircle */;
+			targetProxy = D3C708061D04756300429359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3C7080C1D04756300429359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3C7080D1D04756300429359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3C7080F1D04756300429359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GreatCircle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.GreatCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3C708101D04756300429359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GreatCircle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.GreatCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3C708121D04756300429359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreatCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.GreatCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3C708131D04756300429359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GreatCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.GreatCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C707F41D04756300429359 /* Build configuration list for PBXProject "GreatCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7080C1D04756300429359 /* Debug */,
+				D3C7080D1D04756300429359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C7080E1D04756300429359 /* Build configuration list for PBXNativeTarget "GreatCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7080F1D04756300429359 /* Debug */,
+				D3C708101D04756300429359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C708111D04756300429359 /* Build configuration list for PBXNativeTarget "GreatCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C708121D04756300429359 /* Debug */,
+				D3C708131D04756300429359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C707F11D04756300429359 /* Project object */;
+}
