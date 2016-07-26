@@ -73,13 +73,16 @@ Returns the distance (in meters) between this location and the other location.
 <img src="Documentation/DistanceDiagram.png" alt="DistanceMethod" height="200"/>
 
 **`-finalBearingToOtherLocation:`**   
-Returns the final bearing (in degrees) between this location and the other location.
+Returns the final bearing (in degrees) between this location and the other location. The final bearing is the initial bearing from 
+the other location to this location reversed 180°. The final bearing will differ from the initial bearing by varying degrees according 
+to distance and latitude.
 
 **`-initialBearingToOtherLocation:`**   
 Returns the initial bearing (in degrees) between this location and the other location.
 
 **`+intersectionOfLocation:andBearing:withLocation:andBearing:`**   
-Returns a location representing the point of intersection of two paths, each specified by a location and bearing.
+Returns a location representing the point of intersection of two paths, each specified by a location and bearing. Returns nil if 
+the two paths do not cross.
 
 **`-isEqualToOtherLocation:`**   
 Compares this location to the other location for equality.
