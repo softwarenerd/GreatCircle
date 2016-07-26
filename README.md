@@ -92,6 +92,8 @@ Returns a location representing the point that lies at the specified bearing and
 **`-midpointToOtherLocation:`**   
 Returns a location representing the midpoint between this location and the other location.
 
+<img src="Documentation/MidpointDiagram.png" alt="Midpoint" height="200"/>
+
 ## Contributing
 
 GreatCircle is a work in progress and your contributions are most welcome. Feel free to fork the repo and submit PR's.
