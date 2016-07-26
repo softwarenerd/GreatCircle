@@ -57,7 +57,7 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 
 ## Documentation
 
-* *Extension Methods*
+*Extension Methods*
 
     * `-crossTrackDistanceToStartLocation:endLocation:`
         - Returns the cross track distance of this location relative to the specified start location and end location.
@@ -66,7 +66,6 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 
 ![CrossTrackMethods](Documentation/CrossTrackMethodsDiagram.png)
 
-*
     * `-distanceToOtherLocation:`
         - Returns the distance (in meters) between this location and the other location.
 
