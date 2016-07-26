@@ -62,33 +62,41 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 ---
 **`-crossTrackDistanceToStartLocation:endLocation:`**   
 Returns the cross track distance (in meters) of this location relative to the specified start location and end location.
+
 ---
 **`-crossTrackLocationToStartLocation:endLocation:`**   
 Returns a location representing the cross track point of this location relative to the specified start location and end location.
 
 <img src="Documentation/CrossTrackMethodsDiagram.png" alt="CrossTrackMethods" height="200"/>
+
 ---
 **`-distanceToOtherLocation:`**   
 Returns the distance (in meters) between this location and the other location.
 
 <img src="Documentation/DistanceDiagram.png" alt="DistanceMethod" height="200"/>
+
 ---
 **`-finalBearingToOtherLocation:`**   
 Returns the final bearing (in degrees) between this location and the other location.
+
 ---
 **`-initialBearingToOtherLocation:`**   
 Returns the initial bearing (in degrees) between this location and the other location.
+
 ---
 **`+intersectionOfLocation:andBearing:withLocation:andBearing:`**   
 Returns a location representing the point of intersection of two paths, each specified by a location and bearing.
+
 ---
 **`-isEqualToOtherLocation:`**   
 Compares this location to the other location for equality.
+
 ---
 **`-locationWithBearing:distance:`**   
 Returns a location representing the point that lies at the specified bearing and distance from this location.
 
 <img src="Documentation/BearingDistanceDiagram.png" alt="BearingDistance" height="70"/>
+
 ---
 **`-midpointToOtherLocation:`**   
 Returns a location representing the midpoint between this location and the other location.
