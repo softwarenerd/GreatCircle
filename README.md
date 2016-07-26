@@ -67,11 +67,11 @@ Returns a location representing the cross track point of this location relative 
 
 ![CrossTrackMethods](Documentation/CrossTrackMethodsDiagram.png)
 
-    * `-distanceToOtherLocation:`
-        - Returns the distance (in meters) between this location and the other location.
+`-distanceToOtherLocation:`   
+Returns the distance (in meters) between this location and the other location.
 
-    * `-finalBearingToOtherLocation:`
-        - Returns the final bearing (in degrees) between this location and the other location.
+`-finalBearingToOtherLocation:`   
+Returns the final bearing (in degrees) between this location and the other location.
 
     * `-initialBearingToOtherLocation:`
         - Returns the initial bearing (in degrees) between this location and the other location.
