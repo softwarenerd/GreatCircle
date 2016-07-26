@@ -1,11 +1,27 @@
 # GreatCircle
 
-GreatCircle is an iOS framework that provides a set of extensions to the CLLocation class that are useful for developers who work with GPS locations.
+GreatCircle is an iOS framework that provides a set of extensions to the `CLLocation` class.
 
-This work is based on the amazing work of [Chris Veness](https://github.com/chrisveness), the owner of the [Geodesy functions](https://github.com/chrisveness/geodesy) 
-project. (Also, see [Movable Type Scripts Latitude / Longitude Calculations Reference](http://www.movable-type.co.uk/scripts/latlong.html))
+#### The Problem
 
-Thus far, I have worked on porting the spherical-earth model, which provides simple formulae covering most ‘everyday’ accuracy requirements.
+The CLLocation class provides only one method: 
+
+``- (CLLocationDistance)distanceFromLocation:(const CLLocation *)location``
+
+For calculating the distance between two GPS locations. Because of this, iOS developers must "roll their own" to solve more complex GPS location calculation 
+problems.
+
+#### The Solution
+
+[GreatCircle](https://github.com/softwarenerd/GreatCircle) - which is based on the amazing work of [Chris Veness](https://github.com/chrisveness), the owner 
+of the [Geodesy functions](https://github.com/chrisveness/geodesy) project - provides a comprehensive set of extension methods to the `CLLocation` class that
+make working with GPS locations and performing calculations on then simple and easy.
+
+(For a more general introduction, see: [Movable Type Scripts Latitude / Longitude Calculations Reference](http://www.movable-type.co.uk/scripts/latlong.html))
+
+#### Status
+
+Thus far, I have worked on porting the spherical-earth model, which provides simple formulae covering the accuracy requirements of most use cases.
 
 ## Quick Links
 
