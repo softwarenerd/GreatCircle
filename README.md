@@ -70,6 +70,8 @@ Returns a location representing the cross track point of this location relative 
 **`-distanceToOtherLocation:`**   
 Returns the distance (in meters) between this location and the other location.
 
+![DistanceMethod](Documentation/DistanceDiagram.png)
+
 **`-finalBearingToOtherLocation:`**   
 Returns the final bearing (in degrees) between this location and the other location.
 
