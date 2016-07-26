@@ -84,6 +84,8 @@ Returns the initial bearing (in degrees) between this location and the other loc
 Returns a location representing the point of intersection of two paths, each specified by a location and bearing. Returns nil if 
 the two paths do not cross.
 
+<img src="Documentation/IntersectionDiagram.png" alt="Intersection" height="140"/>
+
 **`-isEqualToOtherLocation:`**   
 Compares this location to the other location for equality.
 
