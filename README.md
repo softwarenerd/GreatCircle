@@ -65,12 +65,12 @@ Returns the cross track distance (in meters) of this location relative to the sp
 **`-crossTrackLocationToStartLocation:endLocation:`**   
 Returns a location representing the cross track point of this location relative to the specified start location and end location.
 
-![CrossTrackMethods](Documentation/CrossTrackMethodsDiagram.png)
+<img src="Documentation/CrossTrackMethodsDiagram.png" alt="CrossTrackMethods" height="200"/>
 
 **`-distanceToOtherLocation:`**   
 Returns the distance (in meters) between this location and the other location.
 
-<img src="Documentation/DistanceDiagram.png" alt="DistanceMethod" width="200"/>
+<img src="Documentation/DistanceDiagram.png" alt="DistanceMethod" height="200"/>
 
 **`-finalBearingToOtherLocation:`**   
 Returns the final bearing (in degrees) between this location and the other location.
