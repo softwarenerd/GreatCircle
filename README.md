@@ -66,6 +66,7 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 
 ![CrossTrackMethods](Documentation/CrossTrackMethodsDiagram.png)
 
+*
     * `-distanceToOtherLocation:`
         - Returns the distance (in meters) between this location and the other location.
 
@@ -83,7 +84,7 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 
     * `-locationWithBearing:distance:`
         - Returns a location representing the point that lies at the specified bearing and distance from this location.
-        
+
     * `-midpointToOtherLocation:`
         - Returns a location representing the midpoint between this location and the other location.
 
