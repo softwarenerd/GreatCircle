@@ -87,7 +87,7 @@ Compares this location to the other location for equality.
 **`-locationWithBearing:distance:`**   
 Returns a location representing the point that lies at the specified bearing and distance from this location.
 
-<img src="Documentation/BearingDistanceDiagram.png" alt="BearingDistance" height="100"/>
+<img src="Documentation/BearingDistanceDiagram.png" alt="BearingDistance" height="70"/>
 
 **`-midpointToOtherLocation:`**   
 Returns a location representing the midpoint between this location and the other location.
