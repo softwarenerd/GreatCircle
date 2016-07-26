@@ -59,22 +59,22 @@ Add a run script that uses the ```carthage copy-frameworks``` command to copy th
 
 *Extension Methods*
 
-**`-crossTrackDistanceToStartLocation:endLocation:`**    
+**`-crossTrackDistanceToStartLocation:endLocation:`**   
 Returns the cross track distance (in meters) of this location relative to the specified start location and end location.
 
-`-crossTrackLocationToStartLocation:endLocation:`   
+**`-crossTrackLocationToStartLocation:endLocation:`**   
 Returns a location representing the cross track point of this location relative to the specified start location and end location.
 
 ![CrossTrackMethods](Documentation/CrossTrackMethodsDiagram.png)
 
-`-distanceToOtherLocation:`   
+**`-distanceToOtherLocation:`**   
 Returns the distance (in meters) between this location and the other location.
 
-`-finalBearingToOtherLocation:`   
+**`-finalBearingToOtherLocation:`**   
 Returns the final bearing (in degrees) between this location and the other location.
 
-    * `-initialBearingToOtherLocation:`
-        - Returns the initial bearing (in degrees) between this location and the other location.
+**`-initialBearingToOtherLocation:`**   
+- Returns the initial bearing (in degrees) between this location and the other location.
 
     * `+intersectionOfLocation:andBearing:withLocation:andBearing:`
         - Returns a location representing the point of intersection of two paths, each specified by a location and bearing.
