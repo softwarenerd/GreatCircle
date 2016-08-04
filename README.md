@@ -53,7 +53,7 @@ GreatCircle should be used via [Carthage dependency manager](https://github.com/
 
 Add a run script that uses the ```carthage copy-frameworks``` command to copy the ```GreatCircle.framework``` 
 
-![RunScript](Documentation/RunScript.png)
+<img src="Documentation/RunScript.png" alt="Run Script" height="400"/>
 
 ## Documentation
 
