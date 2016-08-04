@@ -47,7 +47,7 @@ GreatCircle should be used via [Carthage dependency manager](https://github.com/
 
 #### Add GreatCircle.framework to Linked Frameworks and Libraries
 
-<img src="Documentation/AddFramework.png" alt="Add Framework" width="700"/>
+<img src="Documentation/AddFramework.png" alt="Add Framework" width="650"/>
 
 #### Add Copy Frameworks Run Script
 
