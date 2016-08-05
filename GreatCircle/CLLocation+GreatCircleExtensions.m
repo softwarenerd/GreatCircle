@@ -40,7 +40,7 @@
 #import "CLLocation+GreatCircleExtensions.h"
 
 // Radius of the earth in meters.
-const double kEarthRadiusInMeters = 6371000;
+const double kEarthRadiusInMeters = 6371000.0;
 
 // Converts degrees to radians.
 static inline double ConvertDegreesToRadians(double degrees)
