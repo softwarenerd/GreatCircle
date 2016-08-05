@@ -161,7 +161,7 @@ static inline BOOL CompareToDecimalPlaces(double value1, double value2, int deci
  */
 - (CLLocationDistance)distanceToOtherLocation:(nonnull CLLocation *)otherLocation
 {
-    // If the the two locations are the same, return 0.0; otherwize, calculate the distance between them.
+    // If the the two locations are the same, return 0.0; otherwise, calculate the distance between them.
     if ([self isEqualToOtherLocation:otherLocation])
     {
         return 0.0;
