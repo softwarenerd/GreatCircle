@@ -207,7 +207,7 @@ static inline BOOL CompareToDecimalPlaces(double value1, double value2, int deci
         double x = cos(φ1) * sin(φ2) - sin(φ1) * cos(φ2) * cos(Δλ);
         double θ = atan2(y, x);
         return fmod(ConvertRadiansToDegrees(θ) + 360.0, 360.0);
-    };
+    }
 }
 
 /**
