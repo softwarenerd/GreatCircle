@@ -314,14 +314,14 @@ static inline BOOL CompareToDecimalPlaces(double value1, double value2, int deci
     }
 }
 
-/**
+/*!
  *  @brief
  *  Returns the cross track distance of this location relative to the specified start location and end location.
  *
  *  @param startLocation The start location.
  *  @param endLocation The end location.
  *
- *  @return The the midpoint location between this location and another location.
+ *  @return The cross track distance of this location relative to the specified start location and end location.
  */
 - (CLLocationDistance)crossTrackDistanceToStartLocation:(nonnull CLLocation *)startLocation
                                             endLocation:(nonnull CLLocation *)endLocation
