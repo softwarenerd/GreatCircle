@@ -102,7 +102,7 @@ const CLLocationDistance kFinalBearingVersaillesToEiffelTower   = 65.13460296861
 }
 
 // Tests initial bearing for two locations that are the equal.
-- (void)testInitialBearingIdenticalLocations
+- (void)testInitialBearingEqualLocations
 {
     // Test. This tests the detection of equal objects being passed in as the source and other location.
     CLLocationDirection bearing = [[GreatCircleTests newInstanceOfIndianPond] initialBearingToOtherLocation:_locationIndianPond];
