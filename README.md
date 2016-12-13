@@ -37,6 +37,8 @@ GreatCircle can be used via [Carthage dependency manager](https://github.com/Car
 
 ### Carthage
 
+There are excellent [Instructions](https://github.com/Carthage/Carthage#getting-started) available on the [Carthage](https://github.com/Carthage/Carthage) site, which are summarized below.
+
 #### Add GreatCircle to your Cartfile
 
 ```github "softwarenerd/GreatCircle"```
@@ -47,13 +49,25 @@ GreatCircle can be used via [Carthage dependency manager](https://github.com/Car
 
 #### Add GreatCircle.framework to Linked Frameworks and Libraries
 
+On your application targets’ “General” settings tab, in the “Linked Frameworks and Libraries” section, drag and drop GreatCircle.framework the Carthage/Build/iOS folder on disk.
+
 <img src="Documentation/AddFramework.png" alt="Add Framework" width="650"/>
 
 #### Add Copy Frameworks Run Script
 
-Add a run script that uses the ```carthage copy-frameworks``` command to copy the ```GreatCircle.framework``` 
+On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase”. Create a Run Script in which you specify your shell (ex: `bin/sh`), add the following contents to the script area below the shell:
 
-<img src="Documentation/RunScript.png" alt="Run Script" height="400"/>
+ ```sh
+  /usr/local/bin/carthage copy-frameworks
+  ```
+
+  and add the paths to the frameworks you want to use under “Input Files”, e.g.:
+
+  ```
+  $(SRCROOT)/Carthage/Build/iOS/GreatCircle.framework
+  ```
+  
+  <img src="Documentation/RunScript.png" alt="Run Script" height="400"/>
 
 ### CocoaPod
 
@@ -65,6 +79,8 @@ And install it using:
 ```
 pod install
 ```
+
+If this is the first time you've used a CocoaPod in your project, you will need to switch from your ProjectName.xcodeproj file to the ProjectName.xcworkspace that was created by the `pod install` command.
 
 ## Documentation
 
