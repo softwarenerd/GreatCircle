@@ -1,5 +1,8 @@
 # GreatCircle
 
+# GreatCircle [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/softwarenerd/GreatCircle/master/LICENSE.md) [![GitHub release](https://img.shields.io/github/release/softwarenerd/GreatCircle.svg)](https://github.com/softwarenerd/GreatCircle/releases) [![Build Status](https://travis-ci.org/softwarenerd/GreatCirclde.svg?branch=master)](https://travis-ci.org/softwarenerd/GreatCircle) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+
 GreatCircle is an iOS framework that provides a set of extensions to the `CLLocation` class.
 
 #### The Problem
