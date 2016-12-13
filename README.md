@@ -39,9 +39,7 @@ GreatCircle can be used via [Carthage dependency manager](https://github.com/Car
 
 #### Add GreatCircle to your Cartfile
 
-```github "softwarenerd/GreatCircle" "master"```
-
-(Until GreatCircle is released, there are no tagged versions, so please use the ```master``` branch.)
+```github "softwarenerd/GreatCircle"```
 
 #### Update Carthage
 
