@@ -33,7 +33,9 @@ Thus far, I have worked on porting the spherical-earth model, which provides sim
 
 ## Getting Started
 
-GreatCircle should be used via [Carthage dependency manager](https://github.com/Carthage/Carthage). (Why no Cocoapod? I've switched my work to Carthage. [Here's why.](https://github.com/Carthage/Carthage#differences-between-carthage-and-cocoapods))
+GreatCircle can be used via [Carthage dependency manager](https://github.com/Carthage/Carthage) or as a [CocoaPod](https://cocoapods.org/pods/GreatCircle).
+
+### Carthage
 
 #### Add GreatCircle to your Cartfile
 
@@ -54,6 +56,17 @@ GreatCircle should be used via [Carthage dependency manager](https://github.com/
 Add a run script that uses the ```carthage copy-frameworks``` command to copy the ```GreatCircle.framework``` 
 
 <img src="Documentation/RunScript.png" alt="Run Script" height="400"/>
+
+### CocoaPod
+
+```
+pod 'GreatCircle'
+```
+
+And install it using:
+```
+pod install
+```
 
 ## Documentation
 
