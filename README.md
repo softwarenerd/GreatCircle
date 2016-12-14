@@ -71,8 +71,12 @@ On your application targets’ “Build Phases” settings tab, click the “+�
 
 ### CocoaPod
 
+Add `GreatCircle` to your podfile:
 ```
-pod 'GreatCircle'
+platform :ios, '10.0'
+use_frameworks!
+target 'YourTarget'
+pod 'GreatCircle', '~> 1.0.0'
 ```
 
 And install it using:
@@ -83,6 +87,10 @@ pod install
 If this is the first time you've used a CocoaPod in your project, you will need to switch from your ProjectName.xcodeproj file to the ProjectName.xcworkspace that was created by the `pod install` command.
 
 ## Documentation
+
+### Import GreatCircle
+
+Import the GreatCircle framework into your source file(s) as needed.
 
 *Extension Methods*
 
