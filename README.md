@@ -73,10 +73,10 @@ On your application targets’ “Build Phases” settings tab, click the “+�
 
 Add `GreatCircle` to your podfile:
 ```
-platform :ios, '10.0'
-use_frameworks!
-target 'YourTarget'
-pod 'GreatCircle', '~> 1.0.0'
+target 'MyApp' do
+    use_frameworks!
+    pod 'GreatCircle', '~> 1.0'
+end
 ```
 
 And install it using:
