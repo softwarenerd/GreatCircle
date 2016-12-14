@@ -69,7 +69,7 @@ On your application targets’ “Build Phases” settings tab, click the “+�
   
   <img src="Documentation/RunScript.png" alt="Run Script" height="400"/>
 
-### CocoaPod
+### CocoaPods
 
 Add `GreatCircle` to your podfile:
 ```
